@@ -1,0 +1,46 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package calculadora;
+
+/**
+ *
+ * @author Guilherme
+ */
+public class Operacoes {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        float valor1 = 1;
+        float valor2 = 2;
+        
+        System.out.println("O Resultado da Operacao Soma e: " + Soma(valor1,valor2));
+        System.out.println("O Resultado da Operacao Subtracao e: " + Subtracao(valor1,valor2));
+        System.out.println("O Resultado da Operacao Multiplicacao e: " + Multiplicacao(valor1,valor2));
+        System.out.println("O Resultado da Operacao Divisao e: " + Divisao(valor1,valor2));
+    }
+    public static float Soma(float valor1,float valor2){
+        float resultado;
+        resultado = (valor1 + valor2);
+        return resultado;
+    }
+    public static float Subtracao(float valor1,float valor2){
+        float resultado;
+        resultado = (valor1 - valor2);
+        return resultado;
+    }
+    public static float Multiplicacao(float valor1,float valor2){
+        float resultado;
+        resultado = (valor1 * valor2);
+        return resultado;
+    }
+    public static float Divisao(float valor1,float valor2){
+        float resultado;
+        resultado = (valor1 / valor2);
+        return resultado;
+    }
+}
